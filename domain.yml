@@ -1,0 +1,99 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - ask_product_info
+  - ask_shipping_info
+  - ask_payment_info
+  - ask_order_status
+  - ask_return_policy
+  - ask_contact_info
+  - ask_delivery_info
+  - ask_billing_info
+  - ask_account_info
+  - ask_password_info
+  - ask_login_info
+  - ask_logout_info
+  - ask_help_info
+  - ask_support_info
+  - ask_about_info
+  - ask_about_us_info
+  - ask_about_our_products_info
+  - ask_about_our_services_info
+  - ask_about_our_mission_info
+  - ask_about_our_vision_info
+  - ask_about_our_values_info
+  - ask_about_our_history_info
+  
+
+responses:
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_greet:
+    - text: "Hello! How can I assist you with your shopping today?"
+
+  utter_goodbye:
+    - text: "Thank you for visiting our store. Have a great day!"
+
+  utter_product_info:
+    - text: "We offer a wide range of products. Can you specify which product you're interested in?"
+
+  utter_shipping_info:
+    - text: "We offer free shipping on orders over . Standard shipping takes 3-5 business days."
+
+  utter_payment_info:
+    - text: "We accept all major credit cards. You can also use PayPal for secure transactions."
+
+  utter_order_status:
+    - text: "Your order is currently being processed. It will be shipped within 24 hours."
+
+  utter_return_policy:
+    - text: "We have a 30-day return policy. If you're not satisfied with your purchase, you can return it for a full refund."
+
+  utter_contact_info:
+    - text: "Our customer service team is available 24/7. You can reach us at +1-800-123-4567."
+
+  utter_delivery_info:
+    - text: "We offer free delivery on orders over $50. Standard delivery takes 3-5 business days."
+
+  utter_billing_info:
+    - text: "Your billing information is securely stored. You can view it in your account settings."
+
+  utter_account_info:
+    - text: "You can view and manage your account information in the account settings section of our website."
+
+  utter_password_info:
+    - text: "You can change your password in the account settings section of our website."
+
+  utter_login_info:
+    - text: "You can log in to your account in the login section of our website."
+
+  utter_logout_info:
+    - text: "You can log out of your account in the logout section of our website."
+
+  utter_help_info:
+    - text: "You can get help in the help section of our website."
+
+  utter_support_info:
+    - text: "You can get support in the support section of our website."
+    
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,80 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: ask_product_info
+  steps:
+  - intent: ask_product_info
+  - action: utter_product_info
+
+- story: ask_shipping_info
+  steps:
+  - intent: ask_shipping_info
+  - action: utter_shipping_info
+
+- story: ask_billing_info
+  steps:
+  - intent: ask_billing_info
+  - action: utter_billing_info
+
+- story: ask_contact_info
+  steps:
+  - intent: ask_contact_info
+  - action: utter_contact_info
+
+- story: ask_account_info
+  steps:
+  - intent: ask_account_info
+  - action: utter_account_info
+
+- story: ask_password_info
+  steps:
+  - intent: ask_password_info
+  - action: utter_password_info
+
+- story: ask_login_info
+  steps:
+  - intent: ask_login_info
+  - action: utter_login_info
+
+- story: ask_logout_info
+  steps:
+  - intent: ask_logout_info
+  - action: utter_logout_info
+
+- story: ask_help_info
+  steps:
+  - intent: ask_help_info
+  - action: utter_help_info
+
+- story: ask_support_info
+  steps:
+  - intent: ask_support_info
+  - action: utter_support_info

@@ -1,0 +1,192 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_product_info
+  examples: |
+    - What products do you have?
+    - Can you tell me about your products?
+    - What do you sell?
+    - I'm looking for information on your products
+    - Product details please
+
+- intent: ask_shipping_info
+  examples: |
+    - How much is shipping?
+    - Do you offer free shipping?
+    - What are your shipping options?
+    - How long does shipping take?
+    - Tell me about your shipping policy
+
+- intent: ask_billing_info
+  examples: |
+    - How do you charge for shipping?
+    - What is the billing process?
+    - How do I pay for my order?
+    - What are the payment options?
+    - Do you accept credit cards?
+    - Do you accept PayPal?
+
+- intent: ask_contact_info
+  examples: |
+    - How can I contact you?
+    - What is your customer service number?
+    - How do I get in touch with your support team?
+    - What is your email address?
+    - How can I reach you?
+    - What is your phone number?
+    - How do I contact your office?
+
+- intent: ask_account_info
+  examples: |
+    - How do I view my account information?
+    - How can I change my password?
+    - How do I log in to my account?
+    - How do I log out of my account?
+    - How do I get help with my account?
+    - How do I get support for my account?
+
+- intent: ask_password_info
+  examples: |
+    - How do I change my password?
+    - How do I reset my password?
+    - What is my current password?
+    - How do I find my password?
+    - How do I recover my password?
+    - How do I set a new password?
+
+- intent: ask_login_info
+  examples: |
+    - How do I log in to my account?
+    - How do I log out of my account?
+    - How do I get help with my account?
+    - How do I get support for my account?
+
+- intent: ask_logout_info
+  examples: |
+    - How do I log out of my account?
+    - How do I get help with my account?
+    - How do I get support for my account?
+
+- intent: ask_help_info
+  examples: |
+    - How do I get help with my account?
+    - How do I get support for my account?
+
+- intent: ask_support_info
+  examples: |
+    - How do I get help with my account?
+    - How do I get support for my account?
+
+- intent: ask_about_our_history_info
+  examples: |
+    - How do I get help with my account?
+    - How do I get support for my account?
+
+- intent: ask_about_our_achievements_info
+  examples: |
+    - How do I get help with my account?
+    - How do I get support for my account?
+
+- intent: ask_about_our_mission_info
+  examples: |
+    - How do I get help with my account?
+    - How do I get support for my account?
+
+- intent: ask_about_our_vision_info
+  examples: |
+    - How do I get help with my account?
+    - How do I get support for my account?
+
+- intent: ask_about_our_values_info
+  examples: |
+    - How do I get help with my account?
+    - How do I get support for my account?

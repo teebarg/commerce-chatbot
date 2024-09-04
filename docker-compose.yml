@@ -1,0 +1,16 @@
+services:
+  rasa:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5005:5005"
+    volumes:
+      - ./:/app
+    networks:
+      - chatbot-network
+    command: ["run", "--enable-api", "--cors", "*"]
+
+networks:
+  chatbot-network:
+    driver: bridge
