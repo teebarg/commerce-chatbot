@@ -9,3 +9,6 @@ WORKDIR /app
 
 # Expose Rasa server port
 EXPOSE 5005
+
+# Run Rasa server with API and enable CORS to allow browser access
+CMD ["run", "--enable-api", "--cors", "*"]
